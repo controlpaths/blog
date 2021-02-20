@@ -1,0 +1,6 @@
+*/project
+/python/.ipynb_checkpoints/
+*/.Xil/*
+*.jou
+*.log
+*.str
