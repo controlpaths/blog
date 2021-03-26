@@ -1,0 +1,23 @@
+rtiostream_interface.c.o: \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/rtiostream_interface.c \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/updown_util.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2020b/simulink/include/rtw_extmode.h \
+ /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostream.h \
+ /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/utils/rtiostream_utils.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_types.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_share.h
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/updown_util.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2020b/simulink/include/rtw_extmode.h:
+
+/usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostream.h:
+
+/usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/utils/rtiostream_utils.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_types.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_share.h:

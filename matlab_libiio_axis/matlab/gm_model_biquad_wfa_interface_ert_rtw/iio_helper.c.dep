@@ -1,0 +1,5 @@
+iio_helper.c.o: \
+ /home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/shared/libiio/base/src/iio_helper.c \
+ /home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/shared/libiio/base/include/iio_helper.h
+
+/home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/shared/libiio/base/include/iio_helper.h:

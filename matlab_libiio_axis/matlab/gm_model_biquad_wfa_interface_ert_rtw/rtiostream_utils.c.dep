@@ -1,0 +1,11 @@
+rtiostream_utils.c.o: \
+ /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/utils/rtiostream_utils.c \
+ /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/utils/rtiostream_utils.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostream.h
+
+/usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/utils/rtiostream_utils.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostream.h:

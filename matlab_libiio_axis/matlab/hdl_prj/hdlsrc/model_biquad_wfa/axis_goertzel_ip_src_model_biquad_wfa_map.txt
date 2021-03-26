@@ -1,0 +1,5 @@
+ --> axis_goertzel_ip_src_model_biquad_wfa_pkg
+model_biquad_wfa/goertzel_ip/Subsystem/Biquad Filter --> axis_goertzel_ip_src_Biquad_Filter
+model_biquad_wfa/goertzel_ip/Subsystem --> axis_goertzel_ip_src_Subsystem
+model_biquad_wfa/goertzel_ip --> axis_goertzel_ip_src_goertzel_ip
+model_biquad_wfa --> axis_goertzel_ip_src_model_biquad_wfa

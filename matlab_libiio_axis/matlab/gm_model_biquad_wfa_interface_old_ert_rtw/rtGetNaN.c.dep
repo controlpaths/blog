@@ -1,0 +1,11 @@
+rtGetNaN.c.o: \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtGetNaN.c \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtGetNaN.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rt_nonfinite.h
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtGetNaN.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rt_nonfinite.h:

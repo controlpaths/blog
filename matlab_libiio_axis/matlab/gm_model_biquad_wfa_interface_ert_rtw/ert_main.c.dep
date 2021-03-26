@@ -1,0 +1,53 @@
+ert_main.c.o: \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/ert_main.c \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/gm_model_biquad_wfa_interface.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2020b/simulink/include/rtw_extmode.h \
+ /usr/local/MATLAB/R2020b/simulink/include/sysran_types.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/dt_info.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_work.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_types.h \
+ /home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/shared/libiio/base/include/iio_helper.h \
+ /home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/zynq/blocks/include/axi_lct.h \
+ /home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/zynq/include/axi_interface.h \
+ /home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/zynq/include/mwadma_ioctl.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/gm_model_biquad_wfa_interface_types.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/multiword_types.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rt_nonfinite.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rtGetInf.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/gm_model_biquad_wfa_interface_private.h \
+ /usr/local/MATLAB/R2020b/toolbox/target/codertarget/rtos/inc/linuxinitialize.h
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/gm_model_biquad_wfa_interface.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2020b/simulink/include/rtw_extmode.h:
+
+/usr/local/MATLAB/R2020b/simulink/include/sysran_types.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/dt_info.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_work.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_types.h:
+
+/home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/shared/libiio/base/include/iio_helper.h:
+
+/home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/zynq/blocks/include/axi_lct.h:
+
+/home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/zynq/include/axi_interface.h:
+
+/home/pablo/Documents/MATLAB/SupportPackages/R2020b/toolbox/target/supportpackages/zynq/include/mwadma_ioctl.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/gm_model_biquad_wfa_interface_types.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/multiword_types.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rt_nonfinite.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/rtGetInf.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_ert_rtw/gm_model_biquad_wfa_interface_private.h:
+
+/usr/local/MATLAB/R2020b/toolbox/target/codertarget/rtos/inc/linuxinitialize.h:

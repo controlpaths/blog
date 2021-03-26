@@ -1,0 +1,29 @@
+ext_work.c.o: \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_work.c \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h \
+ /usr/local/MATLAB/R2020b/simulink/include/rtw_extmode.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_types.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_share.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/updown.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/upsup_public.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_svr.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_svr_transport.h \
+ /usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_work.h
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h:
+
+/usr/local/MATLAB/R2020b/simulink/include/rtw_extmode.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_types.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_share.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/updown.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/upsup_public.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_svr.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_svr_transport.h:
+
+/usr/local/MATLAB/R2020b/rtw/c/src/ext_mode/common/ext_work.h:

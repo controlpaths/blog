@@ -1,0 +1,11 @@
+linuxinitialize.c.o: \
+ /usr/local/MATLAB/R2020b/toolbox/target/codertarget/rtos/src/linuxinitialize.c \
+ /usr/local/MATLAB/R2020b/toolbox/target/codertarget/rtos/inc/linuxinitialize.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h \
+ /home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/MW_custom_RTOS_header.h
+
+/usr/local/MATLAB/R2020b/toolbox/target/codertarget/rtos/inc/linuxinitialize.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/rtwtypes.h:
+
+/home/pablo/git/blog/matlab_libiio_axis/matlab/gm_model_biquad_wfa_interface_old_ert_rtw/MW_custom_RTOS_header.h:
