@@ -1,8 +1,0 @@
-rtiostream_tcpip.c.o: \
- /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostreamtcpip/rtiostream_tcpip.c \
- /usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostream.h \
- /usr/local/MATLAB/R2020b/extern/include/tmwtypes.h
-
-/usr/local/MATLAB/R2020b/toolbox/coder/rtiostream/src/rtiostream.h:
-
-/usr/local/MATLAB/R2020b/extern/include/tmwtypes.h:

@@ -1,2 +1,0 @@
-  gm_model_biquad_wfa_interface_old.c
-

@@ -4,7 +4,7 @@
 % hold on
 % plot(input)
 
-data_sim = [output.signals.values(:,:,6)' output.signals.values(:,:,7)']
+data_sim = [output.signals.values(:,:,7)' output.signals.values(:,:,8)']
 data_sim = data_sim(3:34)
 
 figure

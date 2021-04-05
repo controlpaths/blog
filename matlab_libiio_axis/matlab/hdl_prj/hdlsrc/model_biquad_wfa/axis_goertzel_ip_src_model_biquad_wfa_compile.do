@@ -1,6 +1,0 @@
-vlib work
-vcom  axis_goertzel_ip_src_model_biquad_wfa_pkg.vhd
-vcom  axis_goertzel_ip_src_Biquad_Filter.vhd
-vcom  axis_goertzel_ip_src_Subsystem.vhd
-vcom  axis_goertzel_ip_src_goertzel_ip.vhd
-vcom  axis_goertzel_ip_src_model_biquad_wfa.vhd
