@@ -7,3 +7,4 @@ Projects published on controlpaths.com and hackster.io
 - **matlab_overdrive_effect:** project where an overdrive effect is created using MATLAB to develop the algorithm and a Picozed board with Digilent's I2S2 to implement it. https://www.controlpaths.com/2021/02/08/using-hdl-coder-wfa-to-implement-a-distortion-effect/
 - **iio_manage_adc:**  project where an ADC is managed from Petalinux with IIO bus. https://www.controlpaths.com/2021/03/08/using-iio-to-manage-an-adc-from-petalinux/
 - **matlab_libiio_axis:**  project that shows hot to generate an AXI4-Stream IP on MATLAB using HDL Coder and LibIIO.
+- **axis_biquad:** On this project I will show you how implement a biquadratic filter on Verilog. https://www.controlpaths.com/2021/04/19/implementing-a-digital-biquad-filter-in-verilog/
