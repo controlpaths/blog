@@ -1,3 +1,10 @@
+/**
+  Module name:  axis_adc122s
+  Author: P Trujillo (pablo@controlpaths.com)
+  Date: Abr 2021
+  Description: Driver for adc122sxxx adc from TI. AXI Stream data interface.
+  Revision: 1.0 Module created
+**/
 
 module axis_adc122s_v1_0 (
   input aclk,

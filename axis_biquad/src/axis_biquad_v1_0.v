@@ -1,3 +1,10 @@
+/**
+  Module name:  axis_biquad
+  Author: P Trujillo (pablo@controlpaths.com)
+  Date: Abr 2021
+  Description: Module to implement a biquad filter with AXI Stream interface.
+  Revision: 1.0 Module created
+**/
 
 module axis_biquad_v1_0 #(
   parameter inout_width = 16,
