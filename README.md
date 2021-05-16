@@ -8,3 +8,4 @@ Projects published on controlpaths.com and hackster.io
 - **iio_manage_adc:**  project where an ADC is managed from Petalinux with IIO bus. https://www.controlpaths.com/2021/03/08/using-iio-to-manage-an-adc-from-petalinux/
 - **matlab_libiio_axis:**  project that shows hot to generate an AXI4-Stream IP on MATLAB using HDL Coder and LibIIO.
 - **axis_biquad:** On this project I will show you how implement a biquadratic filter on Verilog. https://www.controlpaths.com/2021/04/19/implementing-a-digital-biquad-filter-in-verilog/
+- **axis_fir** On this project I show you how to develop a FIR filter in verilog using folding. https://www.controlpaths.com/2021/05/16/implementing-a-fir-filter-using-folding/
