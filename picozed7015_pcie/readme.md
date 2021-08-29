@@ -1,8 +1,8 @@
 ![image](doc/logo.png)
-# Dual Microblaze design
+# picozed7015 PCIe
 
 ## Description
-In this project a dual core system is implemented with 2 Microblaze processors in Arty board.
+In this project the board Avnet Picozed 7015 is conencted to PC through PCIe port
 
 ## Files
 - **script/dual_mb.tcl.** Script to generate the Vivado project.
