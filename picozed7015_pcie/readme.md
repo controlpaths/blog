@@ -5,13 +5,12 @@
 In this project the board Avnet Picozed 7015 is conencted to PC through PCIe port
 
 ## Files
-- **script/dual_mb.tcl.** Script to generate the Vivado project.
-- **c/hello_world_X.c** C file to implement the project.
+- **script/picozed7015_pcie.tcl.** Script to generate the Vivado project.
+- **python/basic_pcie.py** basic python driver.
 
 ## Creating the project.
 To create the project, we have to open the corresponding Vivado version folder inside script folder, and then execute the next line on command window.
 
 ```
-vivado -mode tcl -source ./dual_mb.tcl
+vivado -mode tcl -source ./picozed7015_pcie.tcl
 ```
-Board file can be download from https://github.com/Digilent/vivado-boards

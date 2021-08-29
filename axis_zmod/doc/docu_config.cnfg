@@ -1,0 +1,6 @@
+file ../src/axis_zmod_adc_v1_0.v
+file ../src/axis_zmod_dac_v1_0.v
+
+outputdir ../doc/
+wireandreg
+logo logo.png
