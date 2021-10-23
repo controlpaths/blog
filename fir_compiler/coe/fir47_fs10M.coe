@@ -1,0 +1,36 @@
+;// ASN Filter Designer Professional v4.5.1
+;// Sun, 01 Aug 2021 10:27:59 GMT
+
+;// ** Primary Filter (H1)**
+
+;//;//Band#       Frequencies (MHz)     Att/Ripple (dB)
+;//     1         0.000,    1.000          0.001
+;//     2         2.000,    5.000         80.000
+;//;//
+;// Arithmetic = 'Fixed Point (Q0.15)';
+;// Architecture = 'FIR';
+;// Structure = 'Direct Form';
+;// Response = 'Lowpass';
+;// Method = 'Parks–McClellan';
+;// GridSize = 100;
+;// Fs = 10.00MHz;
+;// Filter Order = 47
+
+
+;// ** ASN filter Designer Automatic Code Generator   **
+;// ** Deployment to Xilinx Vivado FIR Compiler Suite **
+
+radix=10;
+coefdata=
+-3, 3, 13, 14, 
+-9, -47, -59, 0, 
+112, 172, 65, -195, 
+-395, -264, 243, 769, 
+738, -133, -1378, -1860, 
+-505, 2789, 6788, 9526, 
+9526, 6788, 2789, -505, 
+-1860, -1378, -133, 738, 
+769, 243, -264, -395, 
+-195, 65, 172, 112, 
+0, -59, -47, -9, 
+14, 13, 3, -3;
