@@ -1,0 +1,134 @@
+<!DOCTYPE HTML>
+<html xmlns="http://www.w3.org/1999/xhtml" itemscope itemtype="https://www.mathworks.com/help/schema/MathWorksDocPage">
+<head>
+<title>HDL Check Report for 'two_stage_hdl_coder/two stage downsampler'</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<script type="text/javascript" src="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/jquery-1.7.1.js"></script>
+<script type="text/javascript" src="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/docscripts.js"></script>
+        
+        <link href="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_960.css" rel="stylesheet" type="text/css">
+        <link href="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/HDLsite5.css" rel="stylesheet" type="text/css">
+        <link href="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_doc_center.css" rel="stylesheet" type="text/css">
+        <link href="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_doc_center_installed.css" rel="stylesheet" type="text/css">
+        <link href="file:///usr/local/MATLAB/R2021b/toolbox/hdlcoder/hdlcommon/js_css/ice_doc_center_print.css" rel="stylesheet" type="text/css" media="print">
+        <script type="text/javascript">
+            if (navigator.appName != "ICEbrowser") {
+            var cssStyleSheets = $("link").filter(function(){
+            var href = $(this).attr('href');
+            return href.indexOf("ice_doc_center_print.css") == -1});
+            var hrefElements = $.map(cssStyleSheets, function(elem) {
+            var href = $(elem).attr('href');
+            var hrefArray = href.split("/");
+            hrefArray[hrefArray.length - 1] = hrefArray[hrefArray.length - 1].replace("ice_", "");
+            return {
+            href: hrefArray.join("/"),
+            media: $(elem).attr('media')
+            };
+            });
+            cssStyleSheets.remove();
+            for (var i = 0; i < hrefElements.length; i++) {
+            if ($.browser.msie && $.browser.version <= 8) {
+            document.createStyleSheet(hrefElements[i].href);
+            } else {
+            var link = $('<link rel="stylesheet" href=' + hrefElements[i].href + ' type="text/css" />');
+            if (hrefElements[i].media) {
+            link.attr('media', hrefElements[i].media);
+            }
+            $('head').append(link);
+            }
+            }
+            }
+    </script>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+</head>
+<body>
+<div class="container_192">
+<div class="grid_192">
+ <div class="page_container"><div class="content_frame">
+<h1>HDL Code Generation Check Report for 'two_stage_hdl_coder/two stage downsampler'
+<a href="matlab:open_system('two_stage_hdl_coder/two stage downsampler');">open model 'two_stage_hdl_coder/two stage downsampler'</a><BR>
+Generated on 2022-02-06 17:05:10</h1>
+<H2>HDL check for 'two_stage_hdl_coder' complete with 0 errors, 3 warnings, and 6 messages.</H2><BR>
+<H3>The following table describes blocks for which errors, warnings or messages were reported.</H3><BR>
+<TABLE>
+<TR><TD> <B>Simulink Blocks and resources</B> </TD><TD> <B>Level</B> </TD><TD> <B>Description</B> </TD></TR><TR bgcolor="#F0F0F0"><TD>
+<a alt="HDLShared:hdlshared:MultirateSolver" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');open_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114 47 116 119 111 32 115 116 97 103 101 32 100 111 119 110 115 97 109 112 108 101 114]))">two_stage_hdl_coder/two stage downsampler</a>
+</TD>
+<TD>Warning</TD>
+<TD>HDL test bench generation for multirate models requires a fixed step, discrete solver in single tasking mode. In the Solver pane of the configuration parameters dialog box, ensure the solver type is set to "Fixed-step" and solver to "discrete". To configure the solver to single tasking mode, under Solver details, clear the options "Treat each discrete rate as a separate task" and "Automatically handle rate transition for data transfer".</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="HDLShared:hdlshared:AutoRateTransfer" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');open_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114 47 116 119 111 32 115 116 97 103 101 32 100 111 119 110 115 97 109 112 108 101 114]))">two_stage_hdl_coder/two stage downsampler</a>
+</TD>
+<TD>Warning</TD>
+<TD>To guarantee data integrity in generated HDL code, turn off the option "Automatically handle rate transition for data transfer". You can set this option in Simulation -> Model Configuration Parameters -> Solver.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="HDLShared:hdlshared:cpefamilynotcharacterized" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');open_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]))">two_stage_hdl_coder</a>
+</TD>
+<TD>Warning</TD>
+<TD>Family polarfire not characterized. Using default value, SynthesisToolChipFamily=virtex7, for critical path estimation.</TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:filters:validateSerialPartition:serialInfoMsg" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');hilite_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114 47 116 119 111 32 115 116 97 103 101 32 100 111 119 110 115 97 109 112 108 101 114 47 68 105 115 99 114 101 116 101 32 70 73 82 32 70 105 108 116 101 114 51]))">two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3</a>
+</TD>
+<TD>Message</TD>
+<TD><P>Architecture info for this filter:</P><P> <TABLE border=1 width=400><caption>Summary of filter length(s)</caption><TR><TD align="center"> <B>Total Coefficients</B></TD><TD align="center"> <B>Zeros</B></TD><TD align="center"> <B>Effective</B></TD></TR><TR><TD align="center">36</TD><TD align="center">0</TD><TD align="center">36</TD></TR></TABLE> </P><P>Effective filter length for SerialPartition value is 36.</P><P> <TABLE border=1 width=400><caption>Table of valid 'SerialPartition' settings</caption><TR><TD align="center"> <B>Folding Factor</B></TD><TD align="center"> <B>Multipliers</B></TD><TD align="left"> <B>SerialPartition</B></TD></TR><TR><TD align="center">1</TD><TD align="center">36</TD><TD align="left">ones(1,36)</TD></TR><TR><TD align="center">2</TD><TD align="center">18</TD><TD align="left">ones(1,18)*2</TD></TR><TR><TD align="center">3</TD><TD align="center">12</TD><TD align="left">ones(1,12)*3</TD></TR><TR><TD align="center">4</TD><TD align="center">9</TD><TD align="left">[4 4 4 4 4 4 4 4 4]</TD></TR><TR><TD align="center">5</TD><TD align="center">8</TD><TD align="left">[5 5 5 5 5 5 5 1]</TD></TR><TR><TD align="center">6</TD><TD align="center">6</TD><TD align="left">[6 6 6 6 6 6]</TD></TR><TR><TD align="center">7</TD><TD align="center">6</TD><TD align="left">[7 7 7 7 7 1]</TD></TR><TR><TD align="center">8</TD><TD align="center">5</TD><TD align="left">[8 8 8 8 4]</TD></TR><TR><TD align="center">9</TD><TD align="center">4</TD><TD align="left">[9 9 9 9]</TD></TR><TR><TD align="center">10</TD><TD align="center">4</TD><TD align="left">[10 10 10 6]</TD></TR><TR><TD align="center">11</TD><TD align="center">4</TD><TD align="left">[11 11 11 3]</TD></TR><TR><TD align="center">12</TD><TD align="center">3</TD><TD align="left">[12 12 12]</TD></TR><TR><TD align="center">13</TD><TD align="center">3</TD><TD align="left">[13 13 10]</TD></TR><TR><TD align="center">14</TD><TD align="center">3</TD><TD align="left">[14 14 8]</TD></TR><TR><TD align="center">15</TD><TD align="center">3</TD><TD align="left">[15 15 6]</TD></TR><TR><TD align="center">16</TD><TD align="center">3</TD><TD align="left">[16 16 4]</TD></TR><TR><TD align="center">17</TD><TD align="center">3</TD><TD align="left">[17 17 2]</TD></TR><TR><TD align="center">18</TD><TD align="center">2</TD><TD align="left">[18 18]</TD></TR><TR><TD align="center">19</TD><TD align="center">2</TD><TD align="left">[19 17]</TD></TR><TR><TD align="center">20</TD><TD align="center">2</TD><TD align="left">[20 16]</TD></TR><TR><TD align="center">21</TD><TD align="center">2</TD><TD align="left">[21 15]</TD></TR><TR><TD align="center">22</TD><TD align="center">2</TD><TD align="left">[22 14]</TD></TR><TR><TD align="center">23</TD><TD align="center">2</TD><TD align="left">[23 13]</TD></TR><TR><TD align="center">24</TD><TD align="center">2</TD><TD align="left">[24 12]</TD></TR><TR><TD align="center">25</TD><TD align="center">2</TD><TD align="left">[25 11]</TD></TR><TR><TD align="center">26</TD><TD align="center">2</TD><TD align="left">[26 10]</TD></TR><TR><TD align="center">27</TD><TD align="center">2</TD><TD align="left">[27 9]</TD></TR><TR><TD align="center">28</TD><TD align="center">2</TD><TD align="left">[28 8]</TD></TR><TR><TD align="center">29</TD><TD align="center">2</TD><TD align="left">[29 7]</TD></TR><TR><TD align="center">30</TD><TD align="center">2</TD><TD align="left">[30 6]</TD></TR><TR><TD align="center">31</TD><TD align="center">2</TD><TD align="left">[31 5]</TD></TR><TR><TD align="center">32</TD><TD align="center">2</TD><TD align="left">[32 4]</TD></TR><TR><TD align="center">33</TD><TD align="center">2</TD><TD align="left">[33 3]</TD></TR><TR><TD align="center">34</TD><TD align="center">2</TD><TD align="left">[34 2]</TD></TR><TR><TD align="center">35</TD><TD align="center">2</TD><TD align="left">[35 1]</TD></TR><TR><TD align="center">36</TD><TD align="center">1</TD><TD align="left">[36]</TD></TR></TABLE> </P></TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:filters:validateSerialPartition:serialInfoMsg" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');hilite_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114 47 116 119 111 32 115 116 97 103 101 32 100 111 119 110 115 97 109 112 108 101 114 47 68 105 115 99 114 101 116 101 32 70 73 82 32 70 105 108 116 101 114 52]))">two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4</a>
+</TD>
+<TD>Message</TD>
+<TD><P>Architecture info for this filter:</P><P> <TABLE border=1 width=400><caption>Summary of filter length(s)</caption><TR><TD align="center"> <B>Total Coefficients</B></TD><TD align="center"> <B>Zeros</B></TD><TD align="center"> <B>Effective</B></TD></TR><TR><TD align="center">23</TD><TD align="center">0</TD><TD align="center">23</TD></TR></TABLE> </P><P>Effective filter length for SerialPartition value is 23.</P><P> <TABLE border=1 width=400><caption>Table of valid 'SerialPartition' settings</caption><TR><TD align="center"> <B>Folding Factor</B></TD><TD align="center"> <B>Multipliers</B></TD><TD align="left"> <B>SerialPartition</B></TD></TR><TR><TD align="center">1</TD><TD align="center">23</TD><TD align="left">ones(1,23)</TD></TR><TR><TD align="center">2</TD><TD align="center">12</TD><TD align="left">[ones(1,11)*2, 1]</TD></TR><TR><TD align="center">3</TD><TD align="center">8</TD><TD align="left">[3 3 3 3 3 3 3 2]</TD></TR><TR><TD align="center">4</TD><TD align="center">6</TD><TD align="left">[4 4 4 4 4 3]</TD></TR><TR><TD align="center">5</TD><TD align="center">5</TD><TD align="left">[5 5 5 5 3]</TD></TR><TR><TD align="center">6</TD><TD align="center">4</TD><TD align="left">[6 6 6 5]</TD></TR><TR><TD align="center">7</TD><TD align="center">4</TD><TD align="left">[7 7 7 2]</TD></TR><TR><TD align="center">8</TD><TD align="center">3</TD><TD align="left">[8 8 7]</TD></TR><TR><TD align="center">9</TD><TD align="center">3</TD><TD align="left">[9 9 5]</TD></TR><TR><TD align="center">10</TD><TD align="center">3</TD><TD align="left">[10 10 3]</TD></TR><TR><TD align="center">11</TD><TD align="center">3</TD><TD align="left">[11 11 1]</TD></TR><TR><TD align="center">12</TD><TD align="center">2</TD><TD align="left">[12 11]</TD></TR><TR><TD align="center">13</TD><TD align="center">2</TD><TD align="left">[13 10]</TD></TR><TR><TD align="center">14</TD><TD align="center">2</TD><TD align="left">[14 9]</TD></TR><TR><TD align="center">15</TD><TD align="center">2</TD><TD align="left">[15 8]</TD></TR><TR><TD align="center">16</TD><TD align="center">2</TD><TD align="left">[16 7]</TD></TR><TR><TD align="center">17</TD><TD align="center">2</TD><TD align="left">[17 6]</TD></TR><TR><TD align="center">18</TD><TD align="center">2</TD><TD align="left">[18 5]</TD></TR><TR><TD align="center">19</TD><TD align="center">2</TD><TD align="left">[19 4]</TD></TR><TR><TD align="center">20</TD><TD align="center">2</TD><TD align="left">[20 3]</TD></TR><TR><TD align="center">21</TD><TD align="center">2</TD><TD align="left">[21 2]</TD></TR><TR><TD align="center">22</TD><TD align="center">2</TD><TD align="left">[22 1]</TD></TR><TR><TD align="center">23</TD><TD align="center">1</TD><TD align="left">[23]</TD></TR></TABLE> </P></TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:workflow:AdaptivePipelineOffMessage" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');open_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]))">two_stage_hdl_coder</a>
+</TD>
+<TD>Message</TD>
+<TD><a href="matlab:configset.internal.open('two_stage_hdl_coder','AdaptivePipelining')">'AdaptivePipelining'</a> is set to 'Off' for the model. 'AdaptivePipelining' can improve the achievable clock frequency and reduce the area usage on FPGA boards. To enable adaptive pipelining, set the option to 'On'. When adaptive pipelining is enabled, it inserts pipeline registers to create patterns that efficiently map blocks to DSP units on the target FPGA device.</TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:hdldisp:GeneratingCPEHiliteScript" href="matlab:run('two_stage_hdl/two_stage_hdl_coder/criticalPathEstimated')">two_stage_hdl/two_stage_hdl_coder/criticalPathEstimated.m</a>
+</TD>
+<TD>Message</TD>
+<TD>Estimated critical path for design: <a href="matlab:run('two_stage_hdl/two_stage_hdl_coder/criticalPathEstimated')">two_stage_hdl/two_stage_hdl_coder/criticalPathEstimated.m</a></TD>
+</TR>
+<TR bgcolor="#FFFFFF"><TD>
+<a alt="hdlcoder:hdldisp:GeneratingBlocksWithNoCharacterizationHighlightScript" href="matlab:run('two_stage_hdl/two_stage_hdl_coder/highlightCriticalPathEstimationOffendingBlocks')">two_stage_hdl/two_stage_hdl_coder/highlightCriticalPathEstimationOffendingBlocks.m</a>
+</TD>
+<TD>Message</TD>
+<TD>Blocks that are not characterized for Critical Path Estimation: <a href="matlab:run('two_stage_hdl/two_stage_hdl_coder/highlightCriticalPathEstimationOffendingBlocks')">two_stage_hdl/two_stage_hdl_coder/highlightCriticalPathEstimationOffendingBlocks.m</a></TD>
+</TR>
+<TR bgcolor="#F0F0F0"><TD>
+<a alt="hdlcoder:hdldisp:OversampleMessage" href="matlab:hilite(get_param(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]),'object'),'none');open_system(char([116 119 111 95 115 116 97 103 101 95 104 100 108 95 99 111 100 101 114]))">two_stage_hdl_coder</a>
+</TD>
+<TD>Message</TD>
+<TD>MESSAGE: The design requires 4 times faster clock with respect to the base rate = 1e-05.</TD>
+</TR>
+</TABLE>
+<BR><BR> </div></div></div></div>
+                    <div class="grid_192">
+                        <div class="footer_container">
+                            <div class="footer">
+                                <ul class="footernav">
+                                    <li class="footernav_trademarks"><a href="/usr/local/MATLAB/R2021b/help/acknowledgments.html">Acknowledgments</a></li>
+                                    <li class="footernav_trademarks"><a href="/usr/local/MATLAB/R2021b/trademarks.txt">Trademarks</a></li>
+                                    <li class="footernav_patents"><a href="/usr/local/MATLAB/R2021b/patents.txt">Patents</a></li>
+                                    <li class="footernav_help"><a href="/usr/local/MATLAB/R2021b/license_agreement.txt">Terms of Use</a></li>
+                                </ul>
+                                <div class="copyright">&copy; 1994-2022 The MathWorks, Inc.</div>
+                            </div>
+                        </div>
+                    </div>
+
+        <script type="text/javascript">
+
+$(document).ready( setTimeout( function () {
+                   $(".expandAllLink").trigger('click');
+            }, 50 ) );
+
+        </script>
+        
+</body>
+</html>

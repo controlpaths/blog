@@ -1,0 +1,4 @@
+two_stage_downsampler/Discrete_FIR_Filter3 --> Discrete_FIR_Filter3
+two_stage_downsampler/Discrete_FIR_Filter4 --> Discrete_FIR_Filter4
+two stage downsampler_tc --> two_stage_downsampler_tc
+two_stage_hdl_coder/two stage downsampler --> two_stage_downsampler

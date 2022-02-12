@@ -1,0 +1,13 @@
+open_system('gm_two_stage_hdl_coder');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'blue';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_two_stage_hdl_coder/two stage downsampler/Downsample4', 'user1');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Downsample4', 1, 1, 'cp : 0.753 ns');
+cs.HiliteType = 'user1';
+cs.ForegroundColor = 'black';
+cs.BackgroundColor = 'blue';
+set_param(0, 'HiliteAncestorsData', cs);
+hilite_system('gm_two_stage_hdl_coder/two stage downsampler/delayMatch', 'user1');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/delayMatch', 0, 1, 'cp : 0.511 ns');

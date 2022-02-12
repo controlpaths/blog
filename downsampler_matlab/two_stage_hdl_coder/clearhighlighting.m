@@ -1,0 +1,16 @@
+SLStudio.Utils.RemoveHighlighting(get_param('two_stage_hdl_coder', 'handle'));
+SLStudio.Utils.RemoveHighlighting(get_param('gm_two_stage_hdl_coder', 'handle'));
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Downsample4', 1, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3', 1, 1, '');
+annotate_port('two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3', 1, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3', 1, 1, '');
+annotate_port('two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3', 1, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4', 1, 1, '');
+annotate_port('two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4', 1, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4', 1, 1, '');
+annotate_port('two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4', 1, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/delayMatch', 0, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3/Discrete FIR Filter3', 1, 1, '');
+annotate_port('two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter3', 1, 1, '');
+annotate_port('gm_two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4/Discrete FIR Filter4', 1, 1, '');
+annotate_port('two_stage_hdl_coder/two stage downsampler/Discrete FIR Filter4', 1, 1, '');
