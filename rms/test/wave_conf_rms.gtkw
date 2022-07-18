@@ -1,0 +1,56 @@
+[*]
+[*] GTKWave Analyzer v3.3.103 (w)1999-2019 BSI
+[*] Sat Jul 16 14:19:24 2022
+[*]
+[dumpfile] "/home/pablo/git/blog/rms/test/sim_data.vcd"
+[dumpfile_mtime] "Sat Jul 16 14:16:43 2022"
+[dumpfile_size] 806707010
+[savefile] "/home/pablo/git/blog/rms/test/wave_conf_rms.gtkw"
+[timestart] 0
+[size] 1866 1016
+[pos] -1 -1
+*-19.234499 1414610 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1 -1
+[treeopen] rms_test.
+[treeopen] rms_test.uut.
+[treeopen] rms_test.uut_filter.
+[sst_width] 233
+[signals_width] 283
+[sst_expanded] 1
+[sst_vpaned_height] 289
+@28
+rms_test.aclk
+rms_test.resetn
+rms_test.real_signal
+@40008420
+[fpshift_count] 15
+rms_test.wire_signal[15:0]
+@20000
+-
+-
+-
+@28
+rms_test.rms_dvalid
+rms_test.rms_ready
+@200
+-uut
+@40008024
+[fpshift_count] 15
+rms_test.wire_signal_rms[15:0]
+@20000
+-
+-
+-
+-
+@40008024
+[fpshift_count] 15
+rms_test.wire_signal_rms_filter[15:0]
+@20000
+-
+-
+-
+@200
+-filter
+@22
+rms_test.uut_filter.mean_squared[31:0]
+[pattern_trace] 1
+[pattern_trace] 0
